@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+}
+.content {
+  padding: 1rem;
+  margin: 1rem 3rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.button {
+  color: white;
+  background-color: darkblue;
+  border-radius: 2px;
+  padding: 5px 40px;
+}
+.one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.two {
+  display: flex;
+  align-items: center;
+}
+input {
+  margin: 0 2rem;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.three {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+  width: 15rem;
+  height: 63vh;
+  overflow-y: auto;
+}
+.task {
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding: 1rem;
+  margin: 1rem 0.75rem;
+}
+.line {
+  border: 1px solid gray;
+  margin: 1rem 0;
+}
+.person {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.category {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.desc {
+  text-align: justify;
+}
+h4 {
+  margin: 0;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonTwo {
+  color: white;
+  background-color: darkblue;
+  border-radius: 2px;
+  padding: 5px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #989898;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #393939;
+}
